@@ -33,7 +33,7 @@ docker-compose up
 
 
 #### add Song
-```http
+```javascript
   POST http://localhost:8080/songs
 ```
 #### Example Payload
@@ -56,7 +56,7 @@ docker-compose up
 ```
 
 #### Get all Songs
-```http
+```javascript
     GET http://localhost:8080/songs
 ```
 #### Example Response
@@ -85,7 +85,7 @@ docker-compose up
 ```
 
 #### Search Songs
-```http
+```javascript
     GET http://localhost:8080/songs/search?searchString=Rock
 ```
 #### Example Response
@@ -105,7 +105,7 @@ docker-compose up
 
 #### Recommend Songs
 
-```http
+```javascript
       POST http://localhost:8080/songs/recommend
 ```
 #### Example Payload

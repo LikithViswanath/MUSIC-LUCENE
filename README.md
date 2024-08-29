@@ -8,7 +8,7 @@
 
 • Ensured Robust Error Handling by incorporating custom exception management and logging to address issues effectively and improve service reliability.
 
-• Deployed with Docker Compose for containerization and orchestration, incorporating Keycloak for secure identity and access management, and utilized Spring Cloud Sleuth and Zipkin for distributed tracing and performance monitoring.
+• Deployed with Docker Compose for containerization and orchestration.
 
 ## Tech Stack
 

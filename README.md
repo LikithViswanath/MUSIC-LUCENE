@@ -103,7 +103,7 @@ docker-compose up
 ]
 ```
 
-#### Recommend Songs
+#### Recommend Songs (Returns Songs Based on genre_list, album_list and artist_list)
 
 ```javascript
       POST http://localhost:8080/songs/recommend
@@ -116,5 +116,28 @@ docker-compose up
   "artist_list": ["Artist1"]
 }
 ```
+#### Example Response 
+```json 
+[
+  {
+    "songId": "1",
+    "name": "Song Name",
+    "genre": "Rock",
+    "artist": "Artist Name",
+    "album": "Album Name",
+    "rating": 4.5,
+    "ratingNum": 100
+  },
+  {
+    "songId": "2",
+    "name": "Another Song",
+    "genre": "Pop",
+    "artist": "Another Artist",
+    "album": "Another Album",
+    "rating": 4.0,
+    "ratingNum": 200
+  }
+]
 
+```
 
